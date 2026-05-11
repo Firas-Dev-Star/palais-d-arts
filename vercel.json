@@ -2,10 +2,5 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "vite build",
   "installCommand": "npm install",
-  "outputDirectory": "dist",
-  "functions": {
-    "dist/server/**/*.js": {
-      "runtime": "@vercel/node"
-    }
-  }
+  "outputDirectory": ".output"
 }
